@@ -13,15 +13,21 @@
             VerticalAlignment="Center"
             HorizontalAlignment="Center">
             <GroupBox Header="Введите логин:">
-                <TextBox />
+                <TextBox 
+                    Name="TxbLogin"/>
             </GroupBox>
 
             <GroupBox Header="Введите пароль:">
-                <PasswordBox PasswordChar="$" />
+                <PasswordBox 
+                    Name="PsbPass"
+                    PasswordChar="$" />
             </GroupBox>
 
             <StackPanel Orientation="Horizontal">
-                <Button Content="Войти" Height="45" Width="120"/>
+                <Button Content="Войти" 
+                        Name="BtnLogin"
+                        Click="BtnLogin_Click"
+                        Height="45" Width="120"/>
                 <Button Content="Регистрация" 
                         Name="BtnCreateAcc"
                         Click="BtnCreateAcc_Click"

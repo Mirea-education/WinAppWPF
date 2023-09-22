@@ -36,16 +36,5 @@ namespace WpfAppMirea
 
         }
 
-        //private void BtnHello_Click(object sender, RoutedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        MessageBox.Show($"Привет, {TxbName.Text}!");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message, "Ошибка");
-        //    }
-        //}
     }
 }

@@ -27,9 +27,11 @@
             <StackPanel Orientation="Horizontal">
                 <Button Content="Назад" 
                         Name="BtnBack"
-                        Click="BtnBack_Click"
-                        Height="45" Width="120"/>
-                <Button Content="Сохранить" Height="45" Width="120"/>
+                        Style="{StaticResource BtnBack}"
+                        Click="BtnBack_Click"/>
+                <Button Content="Сохранить"
+                        Style="{StaticResource BtnBack}"
+                        />
             </StackPanel>
         </StackPanel>
     </Grid>

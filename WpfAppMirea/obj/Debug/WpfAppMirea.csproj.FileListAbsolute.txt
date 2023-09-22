@@ -22,3 +22,4 @@ C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageCreateAc
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageLoginAcc.g.cs
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageCreateAcc.baml
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageLoginAcc.baml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\App.baml

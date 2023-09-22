@@ -30,5 +30,18 @@ namespace WpfAppMirea.Pages
         {
             NavigationData.NavigatePage.Navigate(new PageCreateAcc());
         }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (PsbPass.Password == "123" && TxbLogin.Text == "123") MessageBox.Show("Вы успешно вошли!");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

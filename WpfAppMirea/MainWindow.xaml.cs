@@ -26,6 +26,8 @@ namespace WpfAppMirea
         {
             InitializeComponent();
 
+            ConnectOdb.connectionPoint = new MireaLoginEntities();
+
             NavigationData.NavigateFooter = FrmFooter;
             NavigationData.NavigateHeader = FrmHeader;
             NavigationData.NavigatePage = FrmBody;

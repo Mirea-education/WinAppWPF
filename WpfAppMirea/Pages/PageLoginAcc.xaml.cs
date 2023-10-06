@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfAppMirea.Helper;
+using WpfAppMirea.Pages.AdminData;
+using WpfAppMirea.Pages.UserData;
 
 namespace WpfAppMirea.Pages
 {
@@ -24,6 +26,8 @@ namespace WpfAppMirea.Pages
         public PageLoginAcc()
         {
             InitializeComponent();
+
+            
         }
 
         private void BtnCreateAcc_Click(object sender, RoutedEventArgs e)
@@ -35,7 +39,26 @@ namespace WpfAppMirea.Pages
         {
             try
             {
-                if (PsbPass.Password == "123" && TxbLogin.Text == "123") MessageBox.Show("Вы успешно вошли!");
+                var userData = ConnectOdb.connectionPoint.User.FirstOrDefault(
+                    x => x.Login == TxbLogin.Text && x.Password == PsbPass.Password
+                    );
+
+                if (userData != null)
+                {
+                    MessageBox.Show($"Вы успешно вошли! Ваше имя: {userData.Name}");
+                    switch (userData.Role.Name)
+                    {
+                        case "Админ":
+                            NavigationData.NavigatePage.Navigate(new MainPageAdmin());
+                            break;
+                        case "Клиент":
+                            NavigationData.NavigatePage.Navigate(new MainPageClient());
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                else MessageBox.Show("Данные не корректны!");
             }
             catch (Exception)
             {

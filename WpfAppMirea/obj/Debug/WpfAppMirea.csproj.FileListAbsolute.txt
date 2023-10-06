@@ -23,3 +23,14 @@ C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageLoginAcc
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageCreateAcc.baml
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\PageLoginAcc.baml
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\App.baml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\bin\Debug\EntityFramework.dll
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\bin\Debug\EntityFramework.xml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\WpfAppMirea_Content.g.cs
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\WpfAppMirea.csproj.CopyComplete
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\MainPageAdmin.g.cs
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\UserData\MainPageClient.g.cs
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\MainPageAdmin.baml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\UserData\MainPageClient.baml

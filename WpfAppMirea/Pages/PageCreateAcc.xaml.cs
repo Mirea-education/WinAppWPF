@@ -30,5 +30,37 @@ namespace WpfAppMirea.Pages
         {
             NavigationData.NavigatePage.GoBack();
         }
+
+        private void BtnCreateUser_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //if (ConnectOdb.connectionPoint.User.Select(x => x.Login).Contains(TxbLogin.Text))
+                //    MessageBox.Show("Пользователь с таким логином есть");
+
+                if (ConnectOdb.connectionPoint.User.Count(x => x.Login == TxbLogin.Text) > 0)
+                    MessageBox.Show("Пользователь с таким логином есть");
+                else {
+                    User userObj = new User()
+                    {
+                        Login = TxbLogin.Text,
+                        Password = TxbRePass.Text,
+                        RoleId = 1,
+                        Name = TxbName.Text
+                    };
+
+                    ConnectOdb.connectionPoint.User.Add(userObj);
+                    ConnectOdb.connectionPoint.SaveChanges();
+                    MessageBox.Show("Информация успешно добавлена", "Успех", 
+                                    MessageBoxButton.OK, 
+                                    MessageBoxImage.Information);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

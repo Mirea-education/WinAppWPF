@@ -39,6 +39,7 @@ namespace WpfAppMirea.Pages
         {
             try
             {
+
                 var userData = ConnectOdb.connectionPoint.User.FirstOrDefault(
                     x => x.Login == TxbLogin.Text && x.Password == PsbPass.Password
                     );

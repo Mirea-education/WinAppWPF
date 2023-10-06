@@ -13,15 +13,26 @@
             VerticalAlignment="Center"
             HorizontalAlignment="Center">
             <GroupBox Header="Введите логин:">
-                <TextBox />
+                <TextBox 
+                    Name="TxbLogin"
+                    />
             </GroupBox>
-
+            
+            <GroupBox Header="Введите имя:">
+                <TextBox 
+                    Name="TxbName"
+                    />
+            </GroupBox>
+            
             <GroupBox Header="Введите пароль:">
-                <TextBox />
+                <TextBox 
+                    Name="TxbPass"
+                    />
             </GroupBox>
 
             <GroupBox Header="Повторите введеный пароль:">
-                <TextBox />
+                <TextBox 
+                    Name="TxbRePass"/>
             </GroupBox>
 
             <StackPanel Orientation="Horizontal">
@@ -30,6 +41,8 @@
                         Style="{StaticResource BtnBack}"
                         Click="BtnBack_Click"/>
                 <Button Content="Сохранить"
+                        Name="BtnCreateUser"
+                        Click="BtnCreateUser_Click"
                         Style="{StaticResource BtnBack}"
                         />
             </StackPanel>

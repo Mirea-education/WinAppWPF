@@ -24,6 +24,7 @@ namespace WpfAppMirea.Pages.AdminData
         public MainPageAdmin()
         {
             InitializeComponent();
+            GridListUser.ItemsSource = ConnectOdb.connectionPoint.User.ToList();
         }
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)

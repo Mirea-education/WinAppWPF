@@ -8,10 +8,57 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPageAdmin">
 
-    <Grid Background="LightCyan">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="191*"/>
+        </Grid.RowDefinitions>
         <Button VerticalAlignment="Top"
                 Content="Выйти из аккаунта Админа"
-            Name="BtnBack"
-                Click="BtnBack_Click"/>
+                Name="BtnBack"
+                Click="BtnBack_Click"
+                Grid.Row="0"/>
+        <DataGrid Grid.Row="1" 
+                  Name="GridListUser"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Width="100"
+                    Header="ИД" 
+                    Binding="{Binding Id}"/>
+                <DataGridTextColumn 
+                    Width="*"
+                    Header="Логин"
+                    Binding="{Binding Login}"/>
+                <DataGridTextColumn 
+                    Width="*"
+                    Header="Имя пользователя"
+                    Binding="{Binding Name}"/>
+                <DataGridTextColumn 
+                    Width="100"
+                    Header="Роль в системе"
+                    Binding="{Binding Role.Name}"
+                    />
+                <DataGridTemplateColumn
+                    Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackPanel Orientation="Vertical">
+                                    <Button 
+                                    Content="Профиль" />
+                                        <Button 
+                                    Content="Удалить профиль" />
+                                        <Button 
+                                    Content="Отредактировать" />
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>

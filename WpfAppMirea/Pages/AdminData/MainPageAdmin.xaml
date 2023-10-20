@@ -47,12 +47,19 @@
                         <DataTemplate>
                             <Grid>
                                 <StackPanel Orientation="Vertical">
-                                    <Button 
-                                    Content="Профиль" />
                                         <Button 
-                                    Content="Удалить профиль" />
+                                        Content="Профиль"
+                                            Name="BtnProfile"
+                                            Click="BtnProfile_Click"
+                                        />
                                         <Button 
-                                    Content="Отредактировать" />
+                                        Content="Удалить профиль" 
+                                            Name="BtnDeleteProfile"
+                                            Click="BtnDeleteProfile_Click"/>
+                                        <Button 
+                                            Name="BtnEditProfile"
+                                            Click="BtnEditProfile_Click"
+                                        Content="Отредактировать" />
                                 </StackPanel>
                             </Grid>
                         </DataTemplate>

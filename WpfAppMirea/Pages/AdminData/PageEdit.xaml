@@ -1,0 +1,46 @@
+﻿<Page x:Class="WpfAppMirea.Pages.AdminData.PageEdit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppMirea.Pages.AdminData"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageEdit">
+
+    <Grid>
+        <StackPanel
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <GroupBox Header="Введите логин:">
+                <TextBox 
+                    Name="TxbLogin"
+                    />
+            </GroupBox>
+
+            <GroupBox Header="Введите имя:">
+                <TextBox 
+                    Name="TxbName"
+                    />
+            </GroupBox>
+
+            <GroupBox Header="Введите пароль:">
+                <TextBox 
+                    Name="TxbPass"
+                    />
+            </GroupBox>
+
+            <GroupBox Header="Выберите роль:">
+                <ComboBox 
+                    Name="CmbSelectRole"/>
+            </GroupBox>
+
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <Button Content="Сохранить" 
+                        Name="BtnSave"
+                        Click="BtnSave_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

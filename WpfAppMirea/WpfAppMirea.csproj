@@ -103,6 +103,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\AdminData\PageEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AdminData\PageProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PageCreateAcc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +135,12 @@
   <ItemGroup>
     <Compile Include="Pages\AdminData\MainPageAdmin.xaml.cs">
       <DependentUpon>MainPageAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminData\PageEdit.xaml.cs">
+      <DependentUpon>PageEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminData\PageProfile.xaml.cs">
+      <DependentUpon>PageProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageCreateAcc.xaml.cs">
       <DependentUpon>PageCreateAcc.xaml</DependentUpon>

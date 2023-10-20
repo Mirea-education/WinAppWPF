@@ -34,3 +34,7 @@ C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\Ma
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\UserData\MainPageClient.g.cs
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\MainPageAdmin.baml
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\UserData\MainPageClient.baml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\PageProfile.g.cs
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\PageProfile.baml
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\PageEdit.g.cs
+C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\obj\Debug\Pages\AdminData\PageEdit.baml

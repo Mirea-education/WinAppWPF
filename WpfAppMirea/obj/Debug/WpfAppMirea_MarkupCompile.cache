@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\burnf\source\repos\WpfAppMirea\WpfAppMirea\App.xaml
-7-101446506
+91625443203
 2-766805181
-18215350816
+20-249750745
 18853572873
-MainWindow.xaml;Pages\AdminData\MainPageAdmin.xaml;Pages\PageCreateAcc.xaml;Pages\PageFooter.xaml;Pages\PageHeader.xaml;Pages\PageLoginAcc.xaml;Pages\UserData\MainPageClient.xaml;
+MainWindow.xaml;Pages\AdminData\MainPageAdmin.xaml;Pages\AdminData\PageEdit.xaml;Pages\AdminData\PageProfile.xaml;Pages\PageCreateAcc.xaml;Pages\PageFooter.xaml;Pages\PageHeader.xaml;Pages\PageLoginAcc.xaml;Pages\UserData\MainPageClient.xaml;
 
 False
 
